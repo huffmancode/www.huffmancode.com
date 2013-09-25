@@ -1,0 +1,67 @@
+body
+{
+        font-family: 'Gudea', sans-serif !important;
+
+}
+
+.sqldump .share
+{
+    padding:20px;
+}
+
+.sqldump tbody td
+{
+    
+    padding:10px;
+    
+    
+
+}
+
+.sqldump tr
+{
+    border: 10px solid #fff;
+
+    
+}
+
+.sqldump tbody td:nth-child(2)
+{
+    
+    padding:10px;
+    background: #2C3E50;
+    background: #BDC3C7;
+    
+    border-radius:12px;
+    color:#333;
+}
+
+
+
+
+.sqldump thead
+{
+margin: 10px;
+}
+
+.sqldump tbody
+{
+    margin: 10px;
+}
+
+
+
+
+
+.sqldump caption
+{
+    text-align: left;
+    font-size:20px;
+    text-shadow: 0 1px 1px #333;
+    
+}
+
+
+
+
+

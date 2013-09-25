@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+
+        <title>HuffmanCode</title>
+        <!-- Bootstrap core CSS -->
+        <link href="./css/bootstrap/bootstrap.css" rel="stylesheet">
+        <link href="./css/bootstrap/navbar.css" rel="stylesheet">
+        <link href="./css/bootstrap/style.css" rel="stylesheet">
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+        <script src="http://code.jquery.com/jquery.js"></script>
+
+        <!-- Custom styles for this template -->
+
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="/js/bootstrap/html5shiv.js"></script>
+          <script src="/js/bootstrap/respond.min.js"></script>
+        <![endif]-->
+
+
+        <!--Link Effect-->
+        <link href='http://fonts.googleapis.com/css?family=Gudea:400,700' rel='stylesheet' type='text/css'>
+        <link href="./css/linkeffect/normalize.css" rel="stylesheet">
+
+
+        <link href="./css/linkeffect/component.css" rel="stylesheet">
+        <script src="./js/linkeffect/modernizr.custom.js"></script>
+
+        <style>
+            .media
+            {
+                -webkit-box-shadow:0px 0px 4px -2px #000;
+                -moz-shadow:0px 0px 4px -2px #000;
+                -ms-box-shadow:0px 0px 7px -2px #000;
+                box-shadow:0px 0px 4px -2px #000;
+                margin: 20px 0;
+                padding:30px;
+            }
+
+            .footerlink a
+            {
+                color:#333;
+                text-shadow:0 1px 1px #000;
+                text-decoration:none;
+            }
+            .media-heading 
+            {
+                color:#333;
+                text-shadow:0 1px 1px #000;
+            }
+        </style>
+    </head>
+
+
+
+    <body>
+
+        <div class="container">
+
+            <!-- Static navbar -->
+            <div class="navbar navbar-default" style="border:none;background:#fff;">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!--<a class="navbar-brand" href="/">HuffmanCode</a>-->
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav" >
+                        <li class="active"><span class="navlink cl-effect-5"><a href="#"><i class="icon-home"></i> <span data-hover="HuffmanCode">Huffman<strong>Code</strong></span></a></span></li>
+
+                        
+                        <li class="dropdown">
+                            <span class="navlink cl-effect-5 dropdown-toggle" data-toggle="dropdown">
+                                <a href="#"><i class="icon-star-half"></i> 
+                                    <span data-hover="Articles">Articles</span> <b class="caret"></b>
+                                </a>
+
+                            </span>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">HTML5</a></li>
+                                <li><a href="#">CSS3</a></li>
+                                <li><a href="#">iOS</a></li>
+                                <li><a href="#">JavaScript</a></li>
+                                <li><a href="#">SEO</a></li>
+                                <li><a href="#">Bootstrap</a></li>
+
+
+
+
+                            </ul>
+                        </li>
+                        <li><span class="navlink cl-effect-5"><a href="#"><i class="icon-code"></i> <span data-hover="CodeSnippets">Code<strong>Snippets</strong></span></a></span></li>
+
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <!--<li><a href="http://www.facebook.com/huffmancode"><i class="icon-facebook "></i></a></li>
+                        <li><a href="/users/logout"><i class="icon-github"></i></a></li>
+                        <li><a href="#"><i class="icon-twitter"></i></a></li>-->
+                        <li>
+                            <span class="navlink cl-effect-5"><a href='#'><i class="icon-rupee"></i> <span data-hover="Donate">Donate</span></a></span>
+                        </li>
+
+                        <li><span class="navlink cl-effect-5"><a href='#'><span data-hover="About">About</span></a></span></li>
+
+
+                    </ul>
+                </div><!--/.nav-collapse -->
+
+            </div>
+
+            <br/>
+            <br/>
+            <div class="row">
+                <div class="col-md-8">
+                <div class="media  col-md-12">
+                    <a class="pull-left " href="#">
+                        <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="./img/pages/html5.png" style="width: 160px; ">
+                    </a>
+                    <div class="media-body">
+                        <h2 class="media-heading">HTML5 FEATURES
+                            <br/><span style='font-weight: 700;'>OFFLINE</span>
+                        </h2>
+                        <hr>
+
+                        <p style="text-align: justify;">"Web" and "online" are two closely associated terms, downright synonymous to many people. So why on earth would we talk about "offline" web technologies, and what does the term even mean?</p>
+                        <p style="text-align: justify;">For a whirlwind overview of the offline landscape, consider the article "Offline": What does it mean and why should I care?. These features can also be used to improve an application's performance by storing data in the cache or to make data persistent between user sessions and when reloading and restoring pages.</p>
+                    </div>
+
+                </div>
+
+                <div class="media  col-md-12">
+                    <a class="pull-left " href="#">
+                        <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="./img/pages/html5.png" style="width: 160px; ">
+                    </a>
+                    <div class="media-body">
+                        <h2 class="media-heading">HTML5 FEATURES
+                            <br/><span style='font-weight: 700;'>STORAGE</span>
+                        </h2>
+                        <hr>
+                        <p style="text-align: justify;">When web developers think of storing anything about the user, they immediately think of uploading to the server. HTML5 changes that, as there are now several technologies allowing the app to save data on the client device. It might also be sync'd back to the server, or it might only ever stay on the client: that's down to you, the developer.</p>
+                        <p style="text-align: justify;">There are several reasons to use client-side storage. First, you can make your app work when the user is offline, possibly sync'ing data back once the network is connected again. Second, it's a performance booster; you can show a large corpus of data as soon as the user clicks on to your site, instead of waiting for it to download again. Third, it's an easier programming model, with no server infrastructure required. Of course, the data is more vulnerable and the user can't access it from multiple clients, so you should only use it for non-critical data, in particular cached versions of data that's also "in the cloud". See "Offline": What does it mean and why should I care? for a general discussion of offline technologies, of which client-side storage is one component.</p>
+                    </div>
+                </div>
+                
+                </div>
+                <div class="col-md-4">
+                    
+                    <p class="pull-right footerlink">
+                    <a href="#"><i class="icon-facebook icon-2x"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="#"><i class="icon-twitter icon-2x"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="#"><i class="icon-google-plus icon-2x"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="#"><i class="icon-github icon-2x"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="#"><i class="icon-rss icon-2x"></i></a>
+                    </p>
+                    <b class="clearfix"></b>
+                    <div class="media">
+                        <a class="pull-left " href="#">
+                            <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="./img/pages/html5.png" style="width: 60px; ">
+                        </a>
+                        <div class="media-body" style="max-height:300px;">
+                            <h3 class="media-heading">HTML5 FEATURES
+                            <br/><span style='font-weight: 700;'>STORAGE</span>
+                            </h3>
+                        </div>
+                    </div>
+                    
+                    <div class="media">
+                        <a class="pull-left " href="#">
+                            <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="./img/pages/offline.png" style="width: 60px; ">
+                        </a>
+                        <div class="media-body" style="max-height:300px;">
+                            <h3 class="media-heading">HTML5 FEATURES
+                            <br/><span style='font-weight: 700;'>OFFLINE</span>
+                            </h3>
+                        </div>
+                    </div>
+          
+                    
+                </div>
+            </div>
+            <hr>
+ <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'huffmancode'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+            <footer>
+                <p class="text-left pull-left"><span style="font-family:calibri">&COPY; </span>2013 Copyright HuffmanCode.com </p>
+
+<!--                <p class="pull-right footerlink">
+                    <a href="#"><i class="icon-facebook icon-2x"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="#"><i class="icon-twitter icon-2x"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="#"><i class="icon-google-plus icon-2x"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="#"><i class="icon-github icon-2x"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="#"><i class="icon-rss icon-2x"></i></a>
+
+                </p>-->
+
+            </footer>
+        
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--<script src="/js/bootstrap/jquery.js"></script>-->
+    <script src="./js/bootstrap/bootstrap.min.js"></script>
+    <script>
+        $(".alert").fadeOut(3000);
+    </script>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'huffmancode'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
+    
+
+</body>
+
+</html>
